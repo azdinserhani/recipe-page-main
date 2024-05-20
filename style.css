@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 375px) {
+        body {
+          background-color: azure;
+          margin: 0px;
+          padding: 0px;
+        }
+
+        
+        body .continer .img{
+            margin: 0;
+            padding: 0;
+            border-radius: 0%;
+            width: 100%;
+            height: 200px;
+        }
+        .continer{
+            width: 100vh;
+        }
+        body .continer .main{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        body > div > div > div.respon{
+            margin: 30px;
+        }
+      }
+
+.continer{
+    border-radius: 15px;
+    background-color: aliceblue;
+    width: 600px;
+    
+    
+
+}
+.title{
+    
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.continer .img{
+    background-image: url("./assets/images/image-omelette.jpeg");
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 300px;
+    
+}
+.main{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.firstP{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+    
+}
+.prep-time{
+    width: auto;
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px;
+    border-radius: 15px;
+}
+.prep-time h2{
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.time-op{
+    margin-left: -15px;
+    margin-top: 10px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    color: hsl(30, 10%, 34%);
+}
+.time-op span{
+    font-weight: 700;
+}
+.ingrdiats h2{
+    font-family: "Young Serif", serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #7B412E;
+}
+.ingrdiant{
+    margin-left: -15px;
+}
+.ingrdiant .ing{
+    margin-top: 15px;
+    padding-left: 15px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+}
+.hr{
+    
+    background-color: #E0E0E0;
+    height: 2px;
+    
+    margin-bottom: 20px;
+}
+
+.instraction h2{
+    font-family: "Young Serif", serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #7B412E;
+}
+.instr{
+    padding-left: 5px;
+}
+.instr li{
+    margin-left: -15px;
+    margin-top: 10px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    padding-left: 10px;
+    color: hsl(30, 10%, 34%);
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    
+}
+
+
+
+.instr .instr-op{
+    font-weight: 600;
+    
+}
+.instr-view{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.num{
+   color: #7B412E;
+   font-size: 19px;
+   font-family: "Outfit", sans-serif;
+   font-weight: 700;
+}
+.nutrition h2{
+    font-family: "Young Serif", serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #7B412E;
+}
+.nutrition .description{
+    
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    
+    color: hsl(30, 10%, 34%);
+    
+}
+
+.net-item div{
+    
+    display: flex;
+    align-content: space-between;
+    gap: 200px;
+    margin-top: -10px;
+}
+.net{
+    width: 100px;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    margin-left: 25px;
+}
+.nat-value{
+    color: #7B412E;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+   
+}
+.nutrition{
+    padding-bottom: 20px;
+}
